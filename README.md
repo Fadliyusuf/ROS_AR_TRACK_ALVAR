@@ -52,7 +52,7 @@ To display the travel line passed by the marker, you can use:
 ```
 rosrun hector_trajectory_server hector_trajectory_server
 ```
-NOTE: rename TF marker ar track alvar on file /RBE_ws/src/hector_slam/hector_trajectory_server/src/hector_trajectory_server.cpp
+NOTE: rename TF marker ar track alvar on file /catkin_ws/src/hector_slam/hector_trajectory_server/src/hector_trajectory_server.cpp
 according to the marker used
 
 # Make Marker
