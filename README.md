@@ -6,6 +6,8 @@ Install the dependencies (this was tested on Ubuntu 18.04 with melodic):
 $ sudo apt-get install ros-melodic-ar-track-alvar
 $ sudo apt-get install ros-melodic-image-proc
 $ sudo apt-get install ros-melodic-camera-calibration
+$ sudo apt-get install libv4l-dev
+$ sudo apt install ros-melodic-camera-info-manager*
 ```
 
 using catkin workspaces which could be read about here:
@@ -26,6 +28,8 @@ At this point you need to calibrate your camera. this tutorial will help on how 
 https://www.youtube.com/watch?v=UGArg1kQwFc
 ```
 It would be a slightly different procedure if you were using a stereo camera.
+NOTE: if using laptop usually (video0) is used for built-in cameras and (video2) is used for external cameras.
+To change the camera you want to use, you can do it on: /catkin_ws/src/ROS_AR_TRACK_ALVAR/usb_cam/config/usb_cam.yaml
 ```
 $ roslaunch usb_cam usb_cam-test.launch
 ```
@@ -67,3 +71,4 @@ $ source devel/setup.bash
 ```
 
 source: https://github.com/ChrisBove/RBE_510_ROS/tree/master
+        https://marielleeusebio.me/personal/2021/02/16/AR_tags.html
