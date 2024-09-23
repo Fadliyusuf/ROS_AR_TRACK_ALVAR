@@ -70,5 +70,5 @@ If an error occurs in the new terminal when running the command, use:
 $ source devel/setup.bash
 ```
 
-source: https://github.com/ChrisBove/RBE_510_ROS/tree/master
-        https://marielleeusebio.me/personal/2021/02/16/AR_tags.html
+source1: https://github.com/ChrisBove/RBE_510_ROS/tree/master
+source2: https://marielleeusebio.me/personal/2021/02/16/AR_tags.html
