@@ -51,6 +51,7 @@ $ roslaunch sparki_bringup field_ar_markers.launch
 ```
 $ roslaunch sparki_bringup test_sparki_tf.launch
 ```
+NOTE: to using two camera you can run multiple launch file 
 
 
 To display the travel line passed by the marker, you can use:
