@@ -4,6 +4,8 @@ ar track alvar using ros
 # Setup
 Install the dependencies (this was tested on Ubuntu 18.04 with melodic):
 ```
+$ sudo apt-get update && sudo apt-get upgrade
+
 $ sudo apt-get install ros-melodic-ar-track-alvar
 $ sudo apt-get install ros-melodic-image-proc
 $ sudo apt-get install ros-melodic-camera-calibration
